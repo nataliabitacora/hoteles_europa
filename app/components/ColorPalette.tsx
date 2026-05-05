@@ -6,7 +6,7 @@ interface Swatch {
 }
 
 const swatches: Swatch[] = [
-  { name: 'Primary', className: 'bg-primary', hex: '#FF3366', textClass: 'text-white' },
+  { name: 'Primary', className: 'bg-primary', hex: '#FF8000', textClass: 'text-white' },
   { name: 'Secondary', className: 'bg-secondary', hex: '#FFE53D', textClass: 'text-black' },
   { name: 'Accent Blue', className: 'bg-accent-blue', hex: '#3DA9FC', textClass: 'text-black' },
   { name: 'Accent Pink', className: 'bg-accent-pink', hex: '#FF6FB5', textClass: 'text-black' },

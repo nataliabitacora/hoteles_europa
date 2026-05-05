@@ -29,9 +29,11 @@ export function NavigationBar() {
           </div>
 
           <div className="flex items-center gap-3">
-            <Button variant="primary" size="sm" className="hidden sm:inline-flex">
-              Reservar
-            </Button>
+            <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer" className="hidden sm:inline-flex">
+              <Button variant="primary" size="sm">
+                Reservar
+              </Button>
+            </a>
             <button className="md:hidden w-12 h-12 bg-secondary border-4 border-black rounded-xl flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
               <Menu className="w-6 h-6 text-black" strokeWidth={3} />
             </button>
